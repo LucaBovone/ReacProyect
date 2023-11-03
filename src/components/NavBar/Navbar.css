@@ -1,0 +1,66 @@
+/* Estilos para la barra de navegación con fondo degradado naranja */
+.navbarcontainer {
+    background: linear-gradient(135deg, #FFA500, #FF4500); /* Fondo degradado de naranja a naranja oscuro */
+    padding: 10px; /* Espacio alrededor del contenido de la barra de navegación */
+    display: flex;
+    justify-content: space-evenly; /* Alinea a la derecha */
+    align-items: center;
+    position: fixed; /* Fija la barra de navegación en la parte superior de la página */
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0; /* Coloca la barra en la izquierda */
+    width: 100%; /* Ocupa todo el ancho de la página */
+  }
+  
+  /* Estilos para la lista de navegación */
+  .navlist {
+    list-style-type: none; /* Quita los marcadores de lista */
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  .navlist li {
+    display: inline; /* Los elementos de la lista se muestran en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+  }
+  
+  /* Estilos para los enlaces de navegación */
+  .titulo {
+    text-decoration: none; /* Quita la subrayado de los enlaces */
+    color: #fff; /* Color del texto de los enlaces */
+    font-size: 16px; /* Tamaño del texto de los enlaces */
+  }
+  
+  .titulo:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse sobre él */
+    color: #ff9900; /* Cambia el color del texto al pasar el mouse sobre el enlace */
+  }
+  
+  /* Estilos para la barra de búsqueda */
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el carrito de compras (ajusta esto según tu componente) */
+  .CartWidget {
+    color: #fff; /* Color del icono o texto del carrito */
+    font-size: 24px; /* Tamaño del icono o texto del carrito */
+  }
+  
