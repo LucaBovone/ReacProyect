@@ -1,17 +1,14 @@
-import ItemListContainer from './components/ItemListContainer/ItemListContainer'
-import './App.css'
-// import ButtonComponent from './components/ButtonComponent/ButtonComponent';
-import NavBarComponent from './components//NavBar/NavBarComponent'
-function App() {
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+import { MainRouter } from "./router/MainRouter";
+
+const App = () => {
   return (
     <div>
-      <NavBarComponent/>
-    {/* <ButtonComponent /> Etiqueta autocerrada */}
-    <ItemListContainer/>
+      <MainRouter />
     </div>
-
   );
-}
+};
 
 export default App;
 
